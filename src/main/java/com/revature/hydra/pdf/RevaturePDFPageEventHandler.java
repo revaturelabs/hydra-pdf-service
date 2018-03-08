@@ -1,4 +1,4 @@
-package com.revature.caliber.pdf;
+package com.revature.hydra.pdf;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ import com.itextpdf.text.Image;
 import com.itextpdf.text.pdf.PdfPageEventHelper;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
-import com.revature.caliber.exceptions.PDFGenerationException;
+import com.revature.hydra.exceptions.PDFGenerationException;
 
 /**
  * Event Handler that applies header and footer images at the start of every

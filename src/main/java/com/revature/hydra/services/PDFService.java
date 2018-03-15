@@ -1,11 +1,11 @@
-package com.revature.caliber.services;
+package com.revature.hydra.services;
 
 import java.io.IOException;
 
 import org.springframework.stereotype.Component;
 
 import com.itextpdf.text.DocumentException;
-import com.revature.caliber.pdf.RevaturePDF;
+import com.revature.hydra.pdf.RevaturePDF;
 
 @Component
 public class PDFService {

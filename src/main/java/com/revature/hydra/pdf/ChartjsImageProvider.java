@@ -1,4 +1,4 @@
-package com.revature.caliber.pdf;
+package com.revature.hydra.pdf;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import com.itextpdf.text.BadElementException;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.pdf.codec.Base64;
 import com.itextpdf.tool.xml.pipeline.html.AbstractImageProvider;
-import com.revature.caliber.exceptions.PDFGenerationException;
+import com.revature.hydra.exceptions.PDFGenerationException;
 
 /**
  * Decodes Base64 images into iText image
